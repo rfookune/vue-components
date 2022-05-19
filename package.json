@@ -1,6 +1,10 @@
 {
-	"name": "nextek-test-library",
-	"version": "0.0.6",
+	"name": "nextek-ui--vue",
+	"author": {
+		"name" : "Rhyan Foo Kune",
+		"email" : "rfookune@gmail.com"
+	},
+	"version": "0.0.1",
 	"files": [
 		"dist"
 	],
