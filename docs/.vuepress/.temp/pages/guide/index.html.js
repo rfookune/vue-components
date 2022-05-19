@@ -1,0 +1,34 @@
+export const data = {
+  "key": "v-fffb8e28",
+  "path": "/guide/",
+  "title": "Guide",
+  "lang": "en-US",
+  "frontmatter": {},
+  "excerpt": "",
+  "headers": [
+    {
+      "level": 2,
+      "title": "Other Considerations",
+      "slug": "other-considerations",
+      "children": []
+    }
+  ],
+  "git": {
+    "updatedTime": null,
+    "contributors": []
+  },
+  "filePathRelative": "guide/README.md"
+}
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updatePageData) {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ data }) => {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  })
+}

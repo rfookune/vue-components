@@ -1,0 +1,5 @@
+<template><h1 id="vuejs-component-library-with-tailwindcss" tabindex="-1"><a class="header-anchor" href="#vuejs-component-library-with-tailwindcss" aria-hidden="true">#</a> VueJS Component Library with TailwindCSS</h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<h3 id="installation" tabindex="-1"><a class="header-anchor" href="#installation" aria-hidden="true">#</a> Installation</h3>
+<div class="language-bash ext-sh line-numbers-mode"><pre v-pre class="language-bash"><code><span class="token operator">></span> <span class="token function">npm</span> i nextek-ui--vue
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div></template>

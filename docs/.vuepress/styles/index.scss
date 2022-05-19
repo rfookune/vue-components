@@ -1,0 +1,25 @@
+:root {
+	scroll-behavior: smooth;
+}
+
+:root {
+	// brand colors
+	--c-brand: #2A62FF;
+	--c-brand-light: #5481FF;
+}
+
+html.dark {
+	// brand colors
+	--c-brand: #2A62FF;
+	--c-brand-light: #5481FF;
+}
+
+.home .hero img {
+	max-height: 120px;
+}
+
+.navbar .site-name {
+	display: inline-block;
+	margin-left: 10px;
+	margin-top: 1px;
+}

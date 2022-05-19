@@ -1,8 +1,8 @@
 {
 	"name": "nextek-ui--vue",
 	"author": {
-		"name" : "Rhyan Foo Kune",
-		"email" : "rfookune@gmail.com"
+		"name": "Rhyan Foo Kune",
+		"email": "rfookune@gmail.com"
 	},
 	"version": "0.0.1",
 	"files": [
@@ -19,13 +19,17 @@
 	"scripts": {
 		"dev": "vite",
 		"build": "vite build",
-		"preview": "vite preview"
+		"preview": "vite preview",
+		"docs:dev": "vuepress dev docs",
+		"docs:build": "vuepress build docs"
 	},
 	"dependencies": {
 		"vue": "^3.2.25"
 	},
 	"devDependencies": {
 		"@vitejs/plugin-vue": "^2.3.3",
-		"vite": "^2.9.9"
+		"@vuepress/plugin-search": "^2.0.0-beta.45",
+		"vite": "^2.9.9",
+		"vuepress": "^2.0.0-beta.45"
 	}
 }
