@@ -14,27 +14,6 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "",
-    "headers": [],
-    "path": "/components/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Button Component",
-    "headers": [],
-    "path": "/components/button.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Card Component",
-    "headers": [],
-    "path": "/components/card.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
     "title": "Guide",
     "headers": [
       {
@@ -59,6 +38,27 @@ export const searchIndex = [
     "title": "Installation",
     "headers": [],
     "path": "/guide/installation.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "",
+    "headers": [],
+    "path": "/components/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Button Component",
+    "headers": [],
+    "path": "/components/button.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Card Component",
+    "headers": [],
+    "path": "/components/card.html",
     "pathLocale": "/",
     "extraFields": []
   },

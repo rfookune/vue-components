@@ -1,6 +1,6 @@
 <template>
     <button :class="styles" :disabled="loading" @click="onClick">
-        <loading-icon v-if="loading" class="h-5 w-5 -ml-1 mr-2" />
+        <loading-icon v-if="loading" class="w-5 h-5 mr-2 -ml-1" />
         <slot/>
     </button>
 </template>

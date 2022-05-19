@@ -7,8 +7,14 @@ export const data = {
   "excerpt": "",
   "headers": [],
   "git": {
-    "updatedTime": null,
-    "contributors": []
+    "updatedTime": 1652981497000,
+    "contributors": [
+      {
+        "name": "Rhyan Foo Kune",
+        "email": "rfookune@nextekdevelopment.com",
+        "commits": 1
+      }
+    ]
   },
   "filePathRelative": "components/button.md"
 }

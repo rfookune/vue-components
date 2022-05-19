@@ -4,7 +4,7 @@
 		"name": "Rhyan Foo Kune",
 		"email": "rfookune@gmail.com"
 	},
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"files": [
 		"dist"
 	],
@@ -14,7 +14,8 @@
 		".": {
 			"import": "./dist/library.es.js",
 			"require": "./dist/library.umd.js"
-		}
+		},
+		"./dist/style.css": "./dist/style.css"
 	},
 	"scripts": {
 		"dev": "vite",
