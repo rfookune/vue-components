@@ -1,7 +1,8 @@
 <template>
-    <button :class="styles" :disabled="loading" @click="onClick">
+	<a v-if="href" :href="href" :class="styles"><slot /></a>
+    <button v-else :class="styles" :disabled="loading">
         <loading-icon v-if="loading" class="w-5 h-5 mr-2 -ml-1" />
-        <slot/>
+        <slot />
     </button>
 </template>
 
@@ -15,14 +16,18 @@ export default {
             type: String,
             default: 'gray',
         },
-		outline: {
-			type: Boolean,
-            default: false
-		},
+		href: {
+            type: String,
+            default: null,
+        },
         loading: {
             type: Boolean,
             default: false
         },
+		outline: {
+			type: Boolean,
+            default: false
+		},
         size: {
             type: String,
             default: 'medium',
@@ -67,11 +72,5 @@ export default {
             return classes;
         }
     },
-
-	methods: {
-		onClick() {
-			this.$emit('click');
-		}
-	}
 }
 </script>
